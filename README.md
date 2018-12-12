@@ -53,7 +53,7 @@ Python 3.7.0
 From your terminal, run:
 
 ```
-$ python3 app.py relative_path_to_file.test
+$ python app.py relative_path_to_file.test
 ```
 
 Please note that the path to the target file have to be relative and not absolute.
