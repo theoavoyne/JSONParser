@@ -64,4 +64,4 @@ If the syntax is correct, you will get:
 Parsing Succeeded: JSON Syntax OK
 ```
 
-Else, depending on the error type, you will either get a LexerError or a ParserError along with an indication on where the error occured.
+Else, depending on the error type, you will either get a *LexerError* or a *ParserError* along with an indication on where the error occured.
