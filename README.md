@@ -18,30 +18,42 @@ The program is structured in three python files:
 
 Check that you have it by running:
 
-`$ pip freeze | grep ply`
+```
+$ pip freeze | grep ply
+```
 
 You should get something like:
 
-`ply==3.11`
+```
+ply==3.11
+```
 
 Otherwise, download it by running the following command:
 
-`$ pip install ply`
+```
+$ pip install ply
+```
 
 **Python (2 or 3)**
 
 Check that you have it by running:
 
-`$ python -V`
+```
+$ python -V
+```
 
 You should get something like:
 
-`Python 3.7.0`
+```
+Python 3.7.0
+```
 
 ### Execute the program
 
 From your terminal, run:
 
-`$ python3 app.py relative_path_to_file.test`
+```
+$ python3 app.py relative_path_to_file.test
+```
 
 Please note that the path to the target file have to be relative and not absolute.
