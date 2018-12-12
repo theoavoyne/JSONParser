@@ -14,7 +14,7 @@ The program is structured in three python files:
 
 ### Prerequisites 
 
-** PLY module **
+**PLY module**
 
 Check that you have it by running:
 
@@ -28,7 +28,7 @@ Otherwise, download it by running the following command:
 
 `$ pip install ply`
 
-** Python (2 or 3) **
+**Python (2 or 3)**
 
 Check that you have it by running:
 
