@@ -48,7 +48,7 @@ You should get something like:
 Python 3.7.0
 ```
 
-### Execute the program
+### Executing the program
 
 From your terminal, run:
 
