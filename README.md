@@ -57,3 +57,21 @@ $ python app.py relative_path_to_file.test
 ```
 
 Please note that the path to the target file has to be **relative** and not **absolute**.
+
+If the syntax is correct, you will get:
+
+```
+Parsing Succeeded: JSON Syntax OK
+```
+
+Else, depending on the error type, you will either get:
+
+```
+Parsing Failed: LexerError around character no.XXX
+```
+
+Or:
+
+```
+Parsing Failed: ParserError around character no.XXX
+```
