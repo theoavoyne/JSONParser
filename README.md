@@ -71,7 +71,7 @@ Parsing Failed: LexerError around character no. 14 ("w")
 From any other program, the resulting Python dictionnary is accessible by *unpickling* the dict.pickle file. You can, for example, you can load it and save it in a variable named `my_dict` by running:
 
 ```
-my_dict = pickle.load(dict)
+dict_file = open("dict.pickle","rb") # Replace with the path from your current repository
+my_dict = pickle.load(dict_file)
 ```
 
-Note that you should replace `dict` by the path from your current repository to the dict.pickle file.
