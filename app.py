@@ -22,7 +22,7 @@ def main():
       # converted to a python dict(), and saved as result
       result = parser.parse(file)
       print("Parsing Succeeded: JSON Syntax OK")
-      print("The corresponding Python dictionnary is saved in dict.pickle")
+      print("The corresponding Python dictionary is saved in dict.pickle")
 
       # Print the resulting python dict() to the terminal
       # It can be enabled / disabled at line 11
