@@ -68,7 +68,7 @@ Parsing Failed: LexerError around character no. 14 ("w")
 
 ### Use the resulting dictionnary from another program
 
-From any other program, the resulting Python dictionnary is accessible by *unpickling* the dict.pickle file. You can, for example, load it and save it variable `my_dict` by running:
+From any other program, the resulting Python dictionnary is accessible by *unpickling* the dict.pickle file. You can, for example, you can load it and save it in a variable named `my_dict` by running:
 
 ```
 my_dict = pickle.load(dict)
