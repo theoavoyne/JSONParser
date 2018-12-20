@@ -12,7 +12,7 @@ The program is structured in three python files:
 
 ## Getting started
 
-### Prerequisites 
+### Prerequisites
 
 **PLY module**
 

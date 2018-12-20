@@ -18,8 +18,8 @@ def main():
     # ----- Try to parse the file -----
 
     try:
-      # Run the parser. If no error is raised, the input file is
-      # converted to a python dict(), and saved in the variable 'result'
+      # Run the parser. If no error is raised, the JSON object is
+      # converted to a python dict(), and saved as result
       result = parser.parse(file)
       print("Parsing Succeeded: JSON Syntax OK")
       print("The corresponding python dict() has been saved in dict.pickle")
@@ -54,7 +54,7 @@ def main():
   # ------- Argument missing --------
 
   else:
-    print("MISSING ARGUMENT: please add the RELATIVE path of the file to be tested.")
+    print("MISSING OR INVALID ARGUMENTS: please add the RELATIVE path of the file to be tested.")
     print("Example: python3 app.py file_path.text")
 
 if __name__ == "__main__":

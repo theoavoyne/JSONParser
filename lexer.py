@@ -16,10 +16,10 @@ tokens = [
   'RSQBRACKET'
   ]
 
-# --- Defining regular expression rules ---
+# --> Defining regular expression rules ---
 
-# ==> Match and convert JSON-like objects into Python objects
-# ==> JSON specs on http://www.json.org/
+# ==> Convert JSON objects into corresponding Python3 objects
+# ==> JSON specs: http://www.json.org/
 
 t_ignore = ' \t\n'
 t_COMMA = r','

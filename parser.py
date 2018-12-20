@@ -1,9 +1,7 @@
 # Defining an exception to handle parsing errors
 class ParserError(Exception): pass
 
-# --- Defining grammar rules ---
-
-# The docstrings contain context-free grammar specifications
+# ==> Defining the context-free grammar specifications
 
 def p_object(p):
   """object : LBRACKET members RBRACKET
@@ -50,8 +48,6 @@ def p_value(p):
            | FALSE
            | NULL"""
   p[0] = p[1]
-
-# ------------------------------
 
 # Error rule for parsing errors
 def p_error(p):
