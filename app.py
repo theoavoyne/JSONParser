@@ -9,7 +9,7 @@ from parser import *
 lexer = lex.lex() # Build the lexer
 parser = yacc.yacc() # Build the parser
 
-print_dict = True # Enable to print the resulting python dict()
+print_dict = True # Enable to print the resulting Python dict()
 
 def main():
   if len(sys.argv) == 2:
@@ -22,7 +22,7 @@ def main():
       # converted to a python dict(), and saved as result
       result = parser.parse(file)
       print("Parsing Succeeded: JSON Syntax OK")
-      print("The corresponding python dict() has been saved in dict.pickle")
+      print("The corresponding Python dictionnary is saved in dict.pickle")
 
       # Print the resulting python dict() to the terminal
       # It can be enabled / disabled at line 11
