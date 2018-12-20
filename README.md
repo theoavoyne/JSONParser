@@ -1,6 +1,6 @@
 # JSON Parser using PLY (Python Lex-Yacc)
 
-JSON to Python converter using [PLY (Python Lex-Yacc)](http://www.dabeaz.com/ply/ply.html).
+JSON to Python dictionnary converter using [PLY (Python Lex-Yacc)](http://www.dabeaz.com/ply/ply.html).
 
 ## Structure
 
@@ -8,7 +8,7 @@ The program is structured in three Python files:
 
 ### lexer.py
 
-Contains the lexer configuration: tokens names, regular expression rules as well as an error handler. It is formatted as required by [PLY](http://www.dabeaz.com/ply/ply.html). It describes the way the input string will be converted into a token stream.
+Contains the lexer configuration: tokens names, regular expression rules as well as an error handler. It is formatted as required by [ply](http://www.dabeaz.com/ply/ply.html). It describes the way the input string will be converted into a token stream.
 
 ### parse.py
 
@@ -24,7 +24,7 @@ However, if an error is raised during execution—meaning that the syntax is not
 
 ## JSON specifications
 
-(ECMA-404)[https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf]
+[ECMA-404](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)
 
 ## Getting started
 
@@ -33,8 +33,8 @@ However, if an error is raised during execution—meaning that the syntax is not
 `Python 3.6.0` or higher.
 
 **Packages**
-* ply
-* pickle
+* [ply](http://www.dabeaz.com/ply/ply.html)
+* [pickle](https://docs.python.org/3/library/pickle.html)
 
 
 ### Executing the program
