@@ -1,4 +1,4 @@
-# JSON Parser using PLY (Python Lex-Yacc)
+# JSON to Python dictionnary converter using PLY (Python Lex-Yacc)
 
 JSON to Python dictionnary converter using [PLY (Python Lex-Yacc)](http://www.dabeaz.com/ply/ply.html).
 
