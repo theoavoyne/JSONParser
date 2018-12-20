@@ -59,3 +59,9 @@ Parsing Succeeded: JSON Syntax OK
 The corresponding Python dictionnary is saved in dict.pickle
 {'coord': {'lon': [1, 2, 3], 'lat': -1.692e-14}, 'Test': True}
 ```
+
+If the syntax is not correct, you will get information about the type of error that occurred (*LexerError* or *ParserError*) and its location. For example:
+
+```
+Parsing Failed: LexerError around character no. 14 ("w")
+```
