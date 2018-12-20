@@ -52,7 +52,7 @@ Parsing Succeeded: JSON Syntax OK
 The corresponding Python dictionnary is saved in dict.pickle
 ```
 
-If you set the `print_dict` variable to `True` in app.py (l. 12), an excerpt of the Python dictionnary corresponding to the JSON object will be printed to the console:
+If you set the `print_dict` variable to `True` in app.py (l. 12), the Python dictionnary corresponding to the JSON object will be printed to the console:
 
 ```
 Parsing Succeeded: JSON Syntax OK
