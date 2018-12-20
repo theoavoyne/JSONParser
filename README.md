@@ -49,4 +49,13 @@ If the syntax is correct, you will get:
 
 ```
 Parsing Succeeded: JSON Syntax OK
+The corresponding Python dictionnary is saved in dict.pickle
+```
+
+If you set the `print_dict` variable to `True` in app.py (l. 12), and excerpt of the Python dictionnary corresponding to the JSON object will be printed to the console:
+
+```
+Parsing Succeeded: JSON Syntax OK
+The corresponding Python dictionnary is saved in dict.pickle
+{'coord': {'lon': [1, 2, 3], 'lat': -1.692e-14}, 'Test': True}
 ```
